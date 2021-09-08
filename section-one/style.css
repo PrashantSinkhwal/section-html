@@ -1,0 +1,232 @@
+                    
+#section-one article {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    background-color: #111;
+}
+#section-one .container {
+    position: relative;
+    z-index: 1;
+}
+.section-one-wrapper {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.section-one-wrapper .entry-title {
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.section-one-wrapper .entry-title a {
+    color: #fff;
+}
+.section-one-wrapper .entry-title a:hover,
+.section-one-wrapper .entry-title a:focus {
+    color: #fff;
+    opacity: 0.8;
+}
+.section-one-wrapper .entry-content {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#section-one .slick-dots {
+    bottom: 50px;
+}
+#section-one .slick-dots li {
+    margin: 0;
+}
+#section-one .slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+#section-one .slick-slide {
+    outline: none;
+}
+#section-one .slick-prev:before,
+#section-one .slick-next:before {
+    content: "";
+    background-image: url('assets/uploads/left-arrow.svg');
+    width: 14px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    color: #fbd214;
+     -webkit-filter: brightness(0) invert(1);
+    -moz-filter: brightness(0) invert(1);
+    -ms-filter: brightness(0) invert(1);
+    -o-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+#section-one .slick-prev:before {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+#section-one .slick-prev,
+#section-one .slick-next {
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 0;
+    opacity: 1;
+    z-index: 1;
+}
+#section-one .slick-arrow {
+    background-color: transparent;
+    border-radius: 0px;
+}
+#section-one .slick-prev {
+    left: 25px;
+}
+#section-one .slick-next {
+    right: 25px;
+}
+#section-one .slick-prev {
+    left: 25px;
+}
+#section-one .slick-next {
+    right: 25px;
+}
+#section-one .slick-arrow {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fbd214;
+}
+#section-one:hover .slick-arrow,
+#section-one:focus .slick-arrow  {
+    opacity: 1;
+    visibility: visible;
+}
+
+#section-one .slick-dots li button:focus, 
+#section-one .slick-dots li button:hover {
+    outline: 0;
+    background-color: #fff;
+}
+#section-one .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+#section-one .slick-dots li.slick-active button {
+    background-color: #fff;
+}
+#section-one .read-more {
+    margin-top: 30px;
+}
+#section-one .btn {
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 0;
+    border: none;
+    background-color: #000;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Abhaya Libre', serif;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#section-one .btn:hover,
+#section-one .btn:focus {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+#section-one .btn:hover:before, 
+#section-one .btn:focus:before {
+    width: 100%;
+}
+#section-one .btn:before {
+    content: "";
+    height: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    width: 0;
+    z-index: -1;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+/*--------------------------------------------------------------
+#                   RESPONSIVE
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 767px) {
+    .section-one-wrapper .entry-title {
+        font-size: 42px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .section-one-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    #section-one article {
+        padding: 325px 0;
+    }
+    .section-one-wrapper .entry-title {
+        font-size: 65px;
+    }
+
+}
+
+
+@media screen and (max-width: 567px) {
+    .section-one-wrapper .entry-content,
+    .section-one-wrapper .entry-content p {
+        font-size: 16px;
+    }
+    .section-one-wrapper .entry-content {
+        margin: 15px 0 20px;
+    }
+
+
+}

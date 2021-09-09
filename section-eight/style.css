@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600&family=Josefin+Sans:wght@400;600&display=swap');
+
+/*
+Theme Name:
+Theme URI:
+Author: 
+Author URI: 
+Description:
+Version: 1.0.0
+Requires PHP: 5.6
+Tested up to: 5.5
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: moun10-pro
+Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, left-sidebar, editor-style, right-sidebar, full-width-template, two-columns, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, portfolio, entertainment
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+moun10 Pro is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Preloader
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+    ## Links
+    ## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+    ## Comments
+# Infinite scroll
+# Layouts and Titles
+# Media
+    ## Captions
+    ## Galleries
+# Social Icons
+# Breadcrumb List
+# Homepage Sections
+    ## Featured Slider
+    ## WP Travel Search
+    ## Recommended Packages
+    ## About Us Section
+    ## Call To Action
+    ## Travel Preparation
+    ## Travel Destination
+    ## Client Testimonial
+    ## Latest Posts
+
+# Blog/Archive/Single
+# Footer
+# Font Family Options
+# Responsive
+
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+#  Section 8
+--------------------------------------------------------------*/
+.woocommerce  #section-8 .hentry:first-child ul.products li.product, 
+.woocommerce-page #section-8 .hentry:first-child ul.products li.product {
+    width: 100%;
+    margin-bottom: 0;
+}
+.woocommerce #section-8 .hentry:last-child ul.products li.product, 
+.woocommerce-page #section-8 .hentry:last-child ul.products li.product {
+    width: 100%;
+    float: none;
+    margin: 0;
+}
+#section-8 .hentry:last-child {
+    margin-top: 10px;
+}
+#section-8 .hentry:last-child article {
+    padding: 5px 5px;
+}
+#section-8 .hentry:last-child article:nth-child(n-2) {
+    padding-top: 0;
+}
+#section-8 .hentry .featured-image {
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#section-8 .entry-container {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+#section-8 .woocommerce-loop-product__title {
+    margin: 0;
+    font-size: 32px;
+    padding: 0;
+}
+#section-8 .woocommerce-loop-product__title a {
+    text-decoration: none;
+}
+#section-8 .woocommerce-Price-amount.amount {
+    font-size: 20px;
+    color: #000;
+}
+/*--------------------------------------------------------------
+#                   RESPONSIVE
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 767px) {
+    #section-8 .hentry:first-child .featured-image {
+        padding: 305px 0;
+    }
+    #section-8 .hentry .featured-image {
+        padding: 150px 0;
+    }
+    .woocommerce #section-8 .hentry:last-child ul.products li.product, 
+    .woocommerce-page #section-8 .hentry:last-child ul.products li.product {
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #section-8 .hentry {
+        width: 50%;
+        float: left;
+    }
+    #section-8 .hentry:last-child {
+        margin-top: 0px;
+        padding-left: 5px;
+    }
+    #section-8 .hentry:last-child article {
+        padding: 10px 5px;
+    }
+
+}
+
+
